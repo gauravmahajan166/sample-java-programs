@@ -20,7 +20,7 @@ import com.github.chrishantha.sample.base.SampleApplication;
 
 public class AllocationsApplication implements SampleApplication {
 
-    @Parameter(names = "--max", description = "Max Numbers")
+    @Parameter(names = "--max", description = "Max Number")
     private long max = 10_000_000L;
 
     private boolean isPrime(Long n) {
